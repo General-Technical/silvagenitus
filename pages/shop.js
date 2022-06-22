@@ -41,9 +41,9 @@ export default function PreviewPage() {
             </div>
             <div className="productInfo">
               <h2>Syzygium Luehmannii Pet Nat 2022</h2>
-              <h3>$ 30</h3>A naturally sparkling wine that's unfiltered and kept
-              as un-messed with as possible. With no added preservatives, eggs
-              or dairy products.
+              <h3>$ 30</h3>A naturally sparkling wine that&rsquo;s unfiltered
+              and kept as un-messed with as possible. With no added
+              preservatives, eggs or dairy products.
               <button type="submit" role="link" className="orderButton">
                 <h4 className="m-0 self-center">Order</h4>
               </button>
