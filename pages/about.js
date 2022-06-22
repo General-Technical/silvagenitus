@@ -15,10 +15,10 @@ export default function Page() {
           <div className="flex h-screen items-center">
             <div className="text-center bg-white bg-opacity-70 rounded-lg p-8 pb-5 mt-20 sm:mt-0 max-w-xl">
               <p>
-                We've been experimenting with using the fruit from Syzygium
-                luehmannii in wine making for some years now, initially with
-                other fruits. We found the Australian native deserved to shine
-                all by itself.
+                We&rsquo;ve been experimenting with using the fruit from
+                Syzygium luehmannii in wine making for some years now, initially
+                with other fruits. We found the Australian native deserved to
+                shine all by itself.
               </p>
               <p>
                 It has a unique spicy tone with an aromatic flavour. Our
@@ -29,10 +29,10 @@ export default function Page() {
               <p>
                 Syzygium leuhmanii is a type of Lilly Pilly and is one of the
                 most robust and popular native plants. It has diverse uses and
-                doesn't require high intensity care which makes it a perfect
-                sustainable crop for the future. We're aspiring to have a farm
-                that embraces regenerative agriculture and is part of a positive
-                solution for productive lands.
+                doesn&rsquo;t require high intensity care which makes it a
+                perfect sustainable crop for the future. We&rsquo;re aspiring to
+                have a farm that embraces regenerative agriculture and is part
+                of a positive solution for productive lands.
               </p>
               <p>
                 We hope you enjoy this totally unique wine as much as we do!
