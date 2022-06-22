@@ -30,22 +30,22 @@ export default function PreviewPage() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
-        <div class="max-w-screen-md mx-auto">
-          <div class="md:flex block">
-            <div class="md:w-1/2 w-2/3 p-5">
+        <div className="max-w-screen-md mx-auto">
+          <div className="md:flex block">
+            <div className="md:w-1/2 w-2/3 p-5">
               <img
                 src="IMG_20220122_133437_crop.jpg"
                 alt="Syzygium Luehmannii Pet Nat 2022"
-                class="rounded-lg self-center"
+                className="rounded-lg self-center"
               />
             </div>
-            <div class="productInfo">
+            <div className="productInfo">
               <h2>Syzygium Luehmannii Pet Nat 2022</h2>
               <h3>$ 30</h3>A naturally sparkling wine that's unfiltered and kept
               as un-messed with as possible. With no added preservatives, eggs
               or dairy products.
-              <button type="submit" role="link" class="orderButton">
-                <h4 class="m-0 self-center">Order</h4>
+              <button type="submit" role="link" className="orderButton">
+                <h4 className="m-0 self-center">Order</h4>
               </button>
             </div>
           </div>
