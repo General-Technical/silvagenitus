@@ -11,9 +11,9 @@ export default function Page() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
-        <div class="max-w-screen-md mx-auto">
-          <h2 class="text-hover text-center">!</h2>
-          <h2 class="text-center">Your order was canceled.</h2>
+        <div className="max-w-screen-md mx-auto">
+          <h2 className="text-hover text-center">!</h2>
+          <h2 className="text-center">Your order was canceled.</h2>
         </div>
       </main>
     </div>
