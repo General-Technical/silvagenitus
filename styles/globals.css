@@ -15,7 +15,7 @@
 
 @layer base {
   html {
-    @apply w-full mx-auto font-sans bg-background;
+    @apply w-full mx-auto font-sans bg-secondary;
   }
   header {
     @apply fixed w-full z-50;

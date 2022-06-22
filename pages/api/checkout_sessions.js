@@ -14,7 +14,7 @@ export default async function handler(req, res) {
         ],
         mode: "payment",
         success_url: `https://silvagenitus-wine.netlify.app/success`,
-        cancel_url: `${req.headers.origin}/?canceled=true`,
+        cancel_url: `https://silvagenitus-wine.netlify.app/canceled`,
       });
       res.redirect(303, session.url);
     } catch (err) {
