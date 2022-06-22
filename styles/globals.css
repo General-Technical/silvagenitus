@@ -36,13 +36,13 @@
     @apply font-jack font-medium tracking-wide sm:text-3xl text-2xl leading-tight ;
   }
   h3 {
-    @apply font-medium uppercase tracking-wider sm:text-2xl text-xl sm:my-4 my-2;
+    @apply font-bold uppercase tracking-wider sm:text-2xl text-xl sm:my-4 my-2;
   }
   h4 {
-    @apply md:text-lg text-3xl mb-10 uppercase tracking-wider px-4;
+    @apply font-bold md:text-lg text-3xl mb-10 uppercase tracking-wider px-4;
   }
   h5 {
-    @apply text-lg tracking-wide;
+    @apply text-lg tracking-wider uppercase font-bold;
   }
   p {
     @apply mb-3;

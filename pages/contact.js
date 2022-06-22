@@ -11,9 +11,9 @@ export default function Page() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
-        <div className="bg-[url('/HomeBG.jpg')] bg-cover bg-left w-screen mx-auto h-screen">
+        <div className="bg-[url('/HomeBG.jpg')] bg-cover bg-left w-screen mx-auto h-screen px-4">
           <div className="relative font-body flex flex-col h-screen justify-center items-center">
-            <div className="bg-hover w-screen max-w-xl px-4 py-6 pt-8 mx-4 rounded-xl bg-opacity-70 z-40">
+            <div className="bg-hover w-full max-w-xl px-4 py-6 pt-8 mx-4 rounded-xl bg-opacity-70 z-40">
               <form
                 action="https://api.staticforms.xyz/submit"
                 method="post"
@@ -50,10 +50,10 @@ export default function Page() {
                 <input
                   type="hidden"
                   name="redirectTo"
-                  value="https://silvagenitus.netlify.app/thankyou"
+                  value="https://silvagenitus-wine.netlify.app/thankyou"
                 />
                 <button className="orderButton self-center" type="submit">
-                  <h4 className="m-0 self-center">Submit</h4>
+                  <h5 className="m-0 self-center">Submit</h5>
                 </button>
               </form>
             </div>

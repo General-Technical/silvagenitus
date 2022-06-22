@@ -29,7 +29,7 @@ export default function PreviewPage() {
         <meta name="description" content="Silvagenitus bouttique wines" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main>
+      <main className="md:justify-center justify-start">
         <div className="max-w-screen-md mx-auto">
           <div className="md:flex block">
             <div className="md:w-1/2 w-2/3 p-5">
@@ -45,7 +45,7 @@ export default function PreviewPage() {
               and kept as un-messed with as possible. With no added
               preservatives, eggs or dairy products.
               <button type="submit" role="link" className="orderButton">
-                <h4 className="m-0 self-center">Order</h4>
+                <h5 className="m-0 self-center">Order</h5>
               </button>
             </div>
           </div>
