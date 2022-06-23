@@ -43,7 +43,7 @@
     @apply font-jack font-medium tracking-wide sm:text-3xl text-2xl leading-tight ;
   }
   h3 {
-    @apply font-semibold uppercase tracking-wider sm:text-2xl text-xl sm:my-4 my-2;
+    @apply font-normal uppercase tracking-wider sm:text-2xl text-xl sm:my-4 my-2;
   }
   h4 {
     @apply md:text-xl text-3xl mb-10 uppercase tracking-wide px-4;

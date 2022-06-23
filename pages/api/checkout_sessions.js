@@ -9,6 +9,11 @@ export default async function handler(req, res) {
           {
             // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
             price: "price_1LABjpDaq4Mcwyox5FQCr4zL",
+            adjustable_quantity: {
+              enabled: true,
+              minimum: 1,
+              maximum: 99,
+            },
             quantity: 1,
           },
         ],
