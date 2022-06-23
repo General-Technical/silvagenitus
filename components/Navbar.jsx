@@ -37,7 +37,7 @@ export const Navbar = () => {
               active ? "" : "hidden"
             }   absolute top-0 h-screen md:h-auto w-full md:inline-flex md:flex-grow md:w-screen bg-secondary bg-opacity-70 md:bg-opacity-0 flex align-middle items-center `}
           >
-            <div className="md:inline-flex md:flex-row md:ml-auto md:w-auto w-full flex flex-col md:h-28 mx-auto ">
+            <div className="md:inline-flex md:flex-row md:ml-auto md:w-auto w-full flex flex-col md:h-36 mx-auto ">
               <Link href="/">
                 <button onClick={handleClick}>
                   <a>

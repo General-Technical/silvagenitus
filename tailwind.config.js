@@ -17,6 +17,7 @@ module.exports = {
       fontFamily: {
         jack: ["jack", "serif"],
         jackthin: ["jackthin", "serif"],
+        opensans: ["Open Sans", "sans-serif"],
       },
     },
   },

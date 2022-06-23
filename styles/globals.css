@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 @font-face {
   font-family: "jack";
   src: url("/fonts/Jackwrite-8MxjA.ttf");
@@ -12,16 +15,20 @@
   src: url("/fonts/JackwriteThin-YzvOL.ttf");
 }
 
+@font-face {
+  font-family: "opensans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+}
 
 @layer base {
   html {
-    @apply w-full mx-auto font-sans;
+    @apply w-full mx-auto font-opensans;
   }
   header {
-    @apply fixed w-full z-50;
+    @apply fixed w-full z-50 font-opensans;
   }
   main {
-    @apply flex flex-col h-screen justify-center items-center;
+    @apply flex flex-col h-screen justify-center items-center font-opensans;
   }
   footer {
     @apply m-2;
@@ -36,16 +43,16 @@
     @apply font-jack font-medium tracking-wide sm:text-3xl text-2xl leading-tight ;
   }
   h3 {
-    @apply font-bold uppercase tracking-wider sm:text-2xl text-xl sm:my-4 my-2;
+    @apply font-semibold uppercase tracking-wider sm:text-2xl text-xl sm:my-4 my-2;
   }
   h4 {
-    @apply font-bold md:text-lg text-3xl mb-10 uppercase tracking-wider px-4;
+    @apply font-semibold md:text-xl text-3xl mb-10 uppercase tracking-wide px-4;
   }
   h5 {
-    @apply text-lg tracking-wider uppercase font-bold;
+    @apply text-lg tracking-wider uppercase font-semibold;
   }
   p {
-    @apply mb-3;
+    @apply mb-3 text-base sm:text-lg;
   }
   li {
     @apply text-lg uppercase hover:text-hover;
@@ -79,6 +86,44 @@
   }
 }
 
+.button {
+  position: relative;
+}
+
+.button:active {
+  background: #007a63;
+}
+
+.button--loading .button__text {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.button--loading::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 2px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+  from {
+      transform: rotate(0turn);
+  }
+
+  to {
+      transform: rotate(1turn);
+  }
+}
 
 html,
 body {

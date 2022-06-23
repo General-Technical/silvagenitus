@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React, { useState } from "react";
+import { SubmitButton } from "../components/SubmitButton";
 
 export default function Page() {
   const [show, setShow] = useState(false);
@@ -24,12 +25,14 @@ export default function Page() {
                   name="name"
                   placeholder="Name"
                   className="rounded-t-lg"
+                  required
                 />
-                <input type="text" name="email" placeholder="Email" />
+                <input type="text" name="email" placeholder="Email" required />
                 <textarea
                   name="message"
                   placeholder="Message"
                   className="rounded-b-lg"
+                  required
                 ></textarea>
                 <input
                   type="text"

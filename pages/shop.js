@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import { OrderButton } from "../components/OrderButton";
 import { loadStripe } from "@stripe/stripe-js";
 
 // Make sure to call `loadStripe` outside of a component’s render to avoid
@@ -41,12 +42,16 @@ export default function PreviewPage() {
             </div>
             <div className="productInfo">
               <h2>Syzygium Luehmannii Pet Nat 2022</h2>
-              <h3>$ 30</h3>A naturally sparkling wine that&rsquo;s unfiltered
-              and kept as un-messed with as possible. With no added
-              preservatives, eggs or dairy products.
+              <h3>$ 30</h3>
+              <p>
+                A naturally sparkling wine that&rsquo;s unfiltered and kept as
+                un-messed with as possible. With no added preservatives, eggs or
+                dairy products.
+              </p>
               <button type="submit" role="link" className="orderButton">
                 <h5 className="m-0 self-center">Order</h5>
               </button>
+              <OrderButton />
             </div>
           </div>
         </div>
