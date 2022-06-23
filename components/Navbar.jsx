@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
+import Head from "next/head";
 
 export const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -10,6 +11,12 @@ export const Navbar = () => {
 
   return (
     <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </Head>
       <header>
         <nav className="flex items-center flex-wrap">
           <button
@@ -35,7 +42,7 @@ export const Navbar = () => {
           <div
             className={`${
               active ? "" : "hidden"
-            }   absolute top-0 h-screen md:h-auto w-full md:inline-flex md:flex-grow md:w-screen bg-secondary bg-opacity-70 md:bg-opacity-0 flex align-middle items-center `}
+            }   absolute top-0 h-screen md:h-auto w-full md:inline-flex md:flex-grow md:w-screen bg-secondary bg-opacity-70 md:bg-opacity-0 flex align-middle items-center animate__animated animate__fadeIn `}
           >
             <div className="md:inline-flex md:flex-row md:ml-auto md:w-auto w-full flex flex-col md:h-36 mx-auto ">
               <Link href="/">
