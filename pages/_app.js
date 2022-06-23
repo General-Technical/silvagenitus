@@ -1,5 +1,6 @@
 import { Navbar } from "../components/Navbar";
 import "../styles/globals.css";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -7,6 +8,8 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
 
       <Component {...pageProps} />
+
+      <Script src="../buttonScript.js" />
     </>
   );
 }

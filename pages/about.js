@@ -1,8 +1,6 @@
 import Head from "next/head";
-import React, { useState } from "react";
 
 export default function Page() {
-  const [show, setShow] = useState(false);
   return (
     <div>
       <Head>

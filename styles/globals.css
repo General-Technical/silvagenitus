@@ -46,7 +46,7 @@
     @apply font-semibold uppercase tracking-wider sm:text-2xl text-xl sm:my-4 my-2;
   }
   h4 {
-    @apply font-semibold md:text-xl text-3xl mb-10 uppercase tracking-wide px-4;
+    @apply md:text-xl text-3xl mb-10 uppercase tracking-wide px-4;
   }
   h5 {
     @apply text-lg tracking-wider uppercase font-semibold;

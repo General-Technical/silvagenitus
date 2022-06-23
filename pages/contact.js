@@ -55,9 +55,9 @@ export default function Page() {
                   name="redirectTo"
                   value="https://silvagenitus-wine.netlify.app/thankyou"
                 />
-                <button className="orderButton self-center" type="submit">
-                  <h5 className="m-0 self-center">Submit</h5>
-                </button>
+                <div className="mx-auto">
+                  <SubmitButton />
+                </div>
               </form>
             </div>
             <div className="fixed sm:bottom-40 sm:right-20 sm:translate-x-0 bottom-10 right-1/2 translate-x-1/2">

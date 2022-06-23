@@ -48,9 +48,6 @@ export default function PreviewPage() {
                 un-messed with as possible. With no added preservatives, eggs or
                 dairy products.
               </p>
-              <button type="submit" role="link" className="orderButton">
-                <h5 className="m-0 self-center">Order</h5>
-              </button>
               <OrderButton />
             </div>
           </div>
