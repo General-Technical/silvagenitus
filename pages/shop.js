@@ -31,7 +31,7 @@ export default function PreviewPage() {
     >
       <Head>
         <title>Shop - Silvagenitus</title>
-        <meta name="description" content="Silvagenitus bouttique wines" />
+        <meta name="description" content="Silvagenitus boutique wines" />
         <link rel="icon" href="/favicon.png" />
         <link
           rel="stylesheet"
@@ -45,7 +45,7 @@ export default function PreviewPage() {
               <img
                 src="IMG_20220122_133437_crop.jpg"
                 alt="Syzygium Luehmannii Pet Nat 2022"
-                className="rounded-lg self-center"
+                className="rounded-lg self-center animate__animated animate__fadeIn"
               />
             </div>
             <div className="productInfo">

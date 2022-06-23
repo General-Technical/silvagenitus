@@ -18,7 +18,7 @@ export default function Page() {
       <main>
         <div className="bg-[url('/HomeBG.jpg')] bg-cover bg-left w-screen mx-auto h-screen px-4">
           <div className="relative font-body flex flex-col h-screen justify-center items-center">
-            <div className="bg-hover w-full max-w-xl px-4 py-6 pt-8 mx-4 rounded-xl bg-opacity-70 z-40">
+            <div className="bg-hover w-full max-w-xl px-4 py-6 pt-8 mx-4 rounded-xl bg-opacity-70 z-40 animate__animated animate__fadeIn">
               <form
                 action="https://api.staticforms.xyz/submit"
                 method="post"
@@ -64,7 +64,7 @@ export default function Page() {
                 </div>
               </form>
             </div>
-            <div className="fixed sm:bottom-40 sm:right-20 sm:translate-x-0 bottom-10 right-1/2 translate-x-1/2">
+            <div className="fixed sm:bottom-40 sm:right-20 sm:translate-x-0 bottom-10 right-1/2 translate-x-1/2 animate__animated animate__fadeIn">
               <h2 className="silvagenitus">silvagenitus</h2>
             </div>
           </div>
