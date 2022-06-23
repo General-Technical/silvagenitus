@@ -5,11 +5,15 @@ import { SubmitButton } from "../components/SubmitButton";
 export default function Page() {
   const [show, setShow] = useState(false);
   return (
-    <div>
+    <div className="animate__animated animate__fadeIn">
       <Head>
         <title>Contact - Silvagenitus</title>
         <meta name="description" content="Silvagenitus bouttique wines" />
         <link rel="icon" href="/favicon.png" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
       </Head>
       <main>
         <div className="bg-[url('/HomeBG.jpg')] bg-cover bg-left w-screen mx-auto h-screen px-4">
