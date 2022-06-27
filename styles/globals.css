@@ -61,10 +61,10 @@
     @apply hover:text-hover transition duration-300 ease-in-out;
   }
   input {
-    @apply mb-2 p-2 rounded bg-secondary;
+    @apply mb-2 p-2 rounded bg-white;
   }
   textarea {
-    @apply p-2 rounded h-28 bg-secondary;
+    @apply p-2 rounded h-28 bg-white;
   }
 }
 

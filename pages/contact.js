@@ -57,7 +57,7 @@ export default function Page() {
                 <input
                   type="hidden"
                   name="redirectTo"
-                  value="https://silvagenitus-wine.netlify.app/thankyou"
+                  value="https://silvagenitus-wine.netlify.app/shop"
                 />
                 <div className="mx-auto">
                   <SubmitButton />
