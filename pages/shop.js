@@ -31,7 +31,7 @@ export default function PreviewPage() {
     >
       <Head>
         <title>Shop - Silvagenitus</title>
-        <meta name="description" content="Silvagenitus boutique wines" />
+        <meta name="description" content="Silvagenitus Boutique Wines" />
         <link rel="icon" href="/favicon.png" />
         <link
           rel="stylesheet"

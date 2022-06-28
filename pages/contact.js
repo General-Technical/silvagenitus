@@ -8,7 +8,7 @@ export default function Page() {
     <div className="animate__animated animate__fadeIn">
       <Head>
         <title>Contact - Silvagenitus</title>
-        <meta name="description" content="Silvagenitus bouttique wines" />
+        <meta name="description" content="Silvagenitus Boutique Wines" />
         <link rel="icon" href="/favicon.png" />
         <link
           rel="stylesheet"
