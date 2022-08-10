@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import { SubmitButton } from "../components/SubmitButton";
 
 export default function Page() {
   const [show, setShow] = useState(false);
@@ -14,7 +13,6 @@ export default function Page() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
-        <script src="https://www.cognitoforms.com/f/iframe.js"></script>
       </Head>
       <main>
         <div className="bg-[url('/HomeBG.jpg')] bg-cover bg-left w-screen mx-auto h-screen px-4">
