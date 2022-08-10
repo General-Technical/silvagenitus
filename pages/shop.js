@@ -39,7 +39,7 @@ export default function PreviewPage() {
         />
       </Head>
       <main className="md:justify-center justify-start">
-        <div className="max-w-screen-md mx-auto">
+        <div className="max-w-screen-md mx-auto mt-16 md:mt-0">
           <div className="md:flex block">
             <div className="md:w-1/2 w-2/3 p-5">
               <img

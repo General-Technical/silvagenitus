@@ -1,6 +1,6 @@
 import { Navbar } from "../components/Navbar";
 import "../styles/globals.css";
-import Script from "next/script";
+// import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 
       <Component {...pageProps} />
 
-      <Script src="../buttonScript.js" />
+      {/* <Script src="/buttonScript.js" /> */}
     </>
   );
 }

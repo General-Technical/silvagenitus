@@ -14,55 +14,16 @@ export default function Page() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        <script src="https://www.cognitoforms.com/f/iframe.js"></script>
       </Head>
       <main>
         <div className="bg-[url('/HomeBG.jpg')] bg-cover bg-left w-screen mx-auto h-screen px-4">
           <div className="relative font-body flex flex-col h-screen justify-center items-center">
-            <div className="bg-hover w-full max-w-xl px-4 py-6 pt-8 mx-4 rounded-xl bg-opacity-70 z-40 animate__animated animate__fadeIn">
-              <form
-                action="https://api.staticforms.xyz/submit"
-                method="post"
-                className="flex flex-col"
-              >
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  className="rounded-t-lg"
-                  required
-                />
-                <input type="text" name="email" placeholder="Email" required />
-                <textarea
-                  name="message"
-                  placeholder="Message"
-                  className="rounded-b-lg"
-                  required
-                ></textarea>
-                <input
-                  type="text"
-                  name="honeypot"
-                  style={{ display: show ? "block" : "none" }}
-                />
-                <input
-                  type="hidden"
-                  name="accessKey"
-                  value="46b1bac2-86a9-4669-a0a8-e0ec573d7050"
-                />
-                <input
-                  type="hidden"
-                  name="subject"
-                  value="Contact Form - Silvagenitus"
-                />
-                <input type="hidden" name="replyTo" value="@" />
-                <input
-                  type="hidden"
-                  name="redirectTo"
-                  value="https://silvagenitus-wine.netlify.app/shop"
-                />
-                <div className="mx-auto">
-                  <SubmitButton />
-                </div>
-              </form>
+            <div className="my-auto w-full max-w-2xl h-96 bg-white bg-opacity-70 rounded-lg p-8 pb-5">
+              <iframe
+                src="https://www.cognitoforms.com/f/6Ax0zmUI6UeB6_7JUBHcjA/21"
+                className="w-full h-full"
+              ></iframe>
             </div>
             <div className="fixed sm:bottom-40 sm:right-20 sm:translate-x-0 bottom-10 right-1/2 translate-x-1/2 animate__animated animate__fadeIn">
               <h2 className="silvagenitus">silvagenitus</h2>
