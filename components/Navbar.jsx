@@ -66,7 +66,7 @@ export const Navbar = () => {
                   </a>
                 </button>
               </Link>
-              <Link href="/contact">
+              <Link href="mailto:tessa@frest.com?subject=Silvagentitus Enquiry">
                 <button onClick={handleClick}>
                   <a>
                     <h4>Contact</h4>
