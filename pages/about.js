@@ -12,10 +12,10 @@ export default function Page() {
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
       </Head>
-      <div className="bg-[url('/AboutBG.jpg')] bg-contain bg-right mx-auto h-screen bg-no-repeat">
+      <div className="bg-[url('/AboutBG.jpg')] bg-contain bg-right mx-auto min-h-screen bg-no-repeat">
         <main>
-          <div className="flex h-screen items-center justify-start w-full max-w-screen-lg">
-            <div className="text-left bg-white bg-opacity-70 rounded-lg p-8 pb-5 mt-20 sm:mt-0 max-w-xl animate__animated animate__fadeIn">
+          <div className="flex items-center justify-start w-full max-w-screen-lg">
+            <div className="text-left bg-white bg-opacity-70 rounded-lg p-8 max-w-xl animate__animated animate__fadeIn">
               <p>
                 We&rsquo;ve been experimenting with using the fruit from
                 Syzygium luehmannii in wine making for some years now, initially

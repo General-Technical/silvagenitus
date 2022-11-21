@@ -27,7 +27,7 @@
     @apply fixed w-full z-50 font-opensans;
   }
   main {
-    @apply flex flex-col h-screen justify-center items-center font-opensans;
+    @apply flex flex-col min-h-screen justify-center items-center font-opensans py-20;
   }
   footer {
     @apply m-2;
