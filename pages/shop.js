@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import { OrderButton } from "../components/OrderButton";
 export default function PreviewPage() {
   return (
@@ -17,7 +18,7 @@ export default function PreviewPage() {
         <div className="max-w-screen-md mx-auto mt-16 md:mt-0">
           <div className="md:flex block">
             <div className="md:w-1/2 w-2/3 p-5 flex items-center justify-center">
-              <img
+              <Image
                 src="bottle.png"
                 alt="Syzygium Luehmannii Pet Nat 2022"
                 className="rounded-lg self-center animate__animated animate__fadeIn h-[600px]"
