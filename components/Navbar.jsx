@@ -69,6 +69,7 @@ export const Navbar = () => {
               <Link
                 href="mailto:tessa@frest.com?subject=Silvagentitus Enquiry"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <button onClick={handleClick}>
                   <a>
