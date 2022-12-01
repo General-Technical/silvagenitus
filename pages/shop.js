@@ -19,9 +19,11 @@ export default function PreviewPage() {
           <div className="md:flex block">
             <div className="md:w-1/2 w-2/3 p-5 flex items-center justify-center">
               <Image
-                src="bottle.png"
+                src="/bottle.png"
                 alt="Syzygium Luehmannii Pet Nat 2022"
                 className="rounded-lg self-center animate__animated animate__fadeIn h-[600px]"
+                height="600px"
+                width="231px"
               />
             </div>
             <div className="productInfo">
