@@ -16,11 +16,11 @@ export default function PreviewPage() {
       <main className="md:justify-center justify-start">
         <div className="max-w-screen-md mx-auto mt-16 md:mt-0">
           <div className="md:flex block">
-            <div className="md:w-1/2 w-2/3 p-5">
+            <div className="md:w-1/2 w-2/3 p-5 flex items-center justify-center">
               <img
-                src="IMG_20220122_133437_crop.jpg"
+                src="bottle.png"
                 alt="Syzygium Luehmannii Pet Nat 2022"
-                className="rounded-lg self-center animate__animated animate__fadeIn"
+                className="rounded-lg self-center animate__animated animate__fadeIn h-[600px]"
               />
             </div>
             <div className="productInfo">

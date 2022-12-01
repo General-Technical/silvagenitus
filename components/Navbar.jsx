@@ -44,25 +44,25 @@ export const Navbar = () => {
               active ? "" : "hidden"
             }   absolute top-0 h-screen md:h-auto w-full md:inline-flex md:flex-grow md:w-screen bg-secondary bg-opacity-70 md:bg-opacity-0 flex align-middle items-center animate__animated animate__fadeIn `}
           >
-            <div className="md:inline-flex md:flex-row md:ml-auto md:w-auto w-full flex flex-col md:h-36 mx-auto ">
+            <div className="md:inline-flex md:flex-row md:ml-auto md:w-auto w-full flex flex-col md:h-32 mx-auto items-center gap-4 md:gap-10">
               <Link href="/">
                 <button onClick={handleClick}>
                   <a>
-                    <h4>Home</h4>
+                    <h2>silvagenitus</h2>
                   </a>
                 </button>
               </Link>
               <Link href="/about">
                 <button onClick={handleClick}>
                   <a>
-                    <h4>About</h4>
+                    <h2>about</h2>
                   </a>
                 </button>
               </Link>
               <Link href="/shop">
                 <button onClick={handleClick}>
                   <a>
-                    <h4>Shop</h4>
+                    <h2>shop</h2>
                   </a>
                 </button>
               </Link>
@@ -72,7 +72,7 @@ export const Navbar = () => {
               >
                 <button onClick={handleClick}>
                   <a>
-                    <h4>Contact</h4>
+                    <h2>contact</h2>
                   </a>
                 </button>
               </Link>
