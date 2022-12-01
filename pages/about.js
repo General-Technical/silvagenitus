@@ -12,7 +12,7 @@ export default function Page() {
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
       </Head>
-      <div className="bg-[url('/AboutBG.jpg')] bg-[length:700px] xl:bg-[length:1000px] bg-right-top bg-no-repeat">
+      <div className="bg-[url('/AboutBG.jpg')] bg-[length:420px] sm:bg-[length:500px] md:bg-[length:700px] xl:bg-[length:1000px] bg-right-top bg-no-repeat">
         <main>
           <div className="flex items-center justify-start w-full max-w-screen-lg">
             <div className="text-center md:text-right bg-white bg-opacity-70 rounded-lg p-8 max-w-xl animate__animated animate__fadeIn">
