@@ -18,9 +18,9 @@ export const Navbar = () => {
         />
       </Head>
       <header>
-        <nav className="flex items-center flex-wrap">
+        <nav className="flex flex-wrap items-center">
           <button
-            className="z-50 inline-flex p-3 hover:bg-green-600 rounded md:hidden text-primary ml-auto hover:text-hover outline-none"
+            className="z-50 inline-flex p-3 ml-auto rounded outline-none hover:bg-green-600 md:hidden text-primary hover:text-hover"
             onClick={handleClick}
           >
             <svg
@@ -44,7 +44,7 @@ export const Navbar = () => {
               active ? "" : "hidden"
             }   absolute top-0 h-screen md:h-auto w-full md:inline-flex md:flex-grow md:w-screen bg-secondary bg-opacity-70 md:bg-opacity-0 flex align-middle items-center animate__animated animate__fadeIn `}
           >
-            <div className="md:inline-flex md:flex-row md:ml-auto md:w-auto w-full flex flex-col md:h-32 mx-auto items-center gap-4 md:gap-10">
+            <div className="flex flex-col items-center w-full gap-4 mx-auto md:inline-flex md:flex-row md:ml-auto md:w-auto md:h-32 md:gap-10">
               <Link href="/">
                 <button onClick={handleClick}>
                   <a>
@@ -67,7 +67,7 @@ export const Navbar = () => {
                 </button>
               </Link>
               <Link
-                href="mailto:tessa@frest.com?subject=Silvagentitus Enquiry"
+                href="mailto:tessa@fredst.com?subject=Silvagentitus Enquiry"
                 target="_blank"
                 rel="noopener noreferrer"
               >
