@@ -3,7 +3,7 @@ import React from "react";
 export const OrderButton = () => {
   return (
     <a
-      href="mailto:tessa@frest.com?subject=Silvagenitus Order"
+      href="mailto:tessa@fredst.com?subject=Silvagenitus Order"
       target="_blank"
       rel="noopener noreferrer"
     >
